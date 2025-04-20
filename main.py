@@ -6,17 +6,19 @@ class Pet:
         self.happiness = happiness
 
     def __repr__(self):
-        return f"My pet is {self.name}"
+        return f"My pet is {self.name} with {self.hunger} hunger, {self.energy} energy, and {self.happiness} happiness."
 
-    def eat():
+    def eat(self):
         pass
-    def sleep():
+    def sleep(self):
         pass
-    def play():
+    def play(self):
         pass
-    def get_status():
+    def play(self):
         pass
-    def train(trick):
+    def get_status(self):
+        pass
+    def train(self, trick):
         pass
 
 
